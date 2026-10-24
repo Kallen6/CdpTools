@@ -1,0 +1,6 @@
+# 运行依赖（Python 3.9+）
+PyQt5>=5.15,<6          # 元素捕获器 GUI
+websocket-client>=1.6   # CDP 连接（cdp_flow + 捕获器）
+
+# 打包捕获器为 exe 时才需要（可选）
+# pyinstaller>=5.0

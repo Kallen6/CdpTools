@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>CDP Processing Tool - Demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 48px; color: #222; }
+    #kw { padding: 8px; width: 240px; }
+    #go { padding: 8px 16px; }
+    #result { margin-top: 16px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <main id="app">
+    <h1 id="title">CDP Processing Tool</h1>
+    <p>演示页面：输入关键词，点击搜索，读取结果。</p>
+    <input id="kw" class="search-input" placeholder="输入关键词">
+    <button id="go" class="btn">搜索</button>
+    <p id="result">结果：</p>
+  </main>
+  <script>
+    document.getElementById('go').addEventListener('click', function () {
+      var kw = document.getElementById('kw').value.trim();
+      document.getElementById('result').textContent = '结果：' + (kw || '（空）');
+    });
+  </script>
+</body>
+</html>

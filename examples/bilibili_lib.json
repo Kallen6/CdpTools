@@ -1,0 +1,78 @@
+[
+    {
+        "name": "search_input",
+        "group_name": "bili",
+        "tag_name": "input",
+        "xpath": "//*[@class=\"nav-search-input\"]",
+        "outer_html": "<input class=\"nav-search-input\" type=\"text\">",
+        "node_path": [
+            {
+                "tag": "html",
+                "attributes": {},
+                "index": 0,
+                "sibling_count": 1,
+                "innerText": ""
+            },
+            {
+                "tag": "body",
+                "attributes": {},
+                "index": 1,
+                "sibling_count": 2,
+                "innerText": ""
+            },
+            {
+                "tag": "input",
+                "attributes": {
+                    "class": "nav-search-input"
+                },
+                "index": 0,
+                "sibling_count": 1,
+                "innerText": ""
+            }
+        ],
+        "checked_nodes": [2],
+        "node_match_rules": {
+            "2": {
+                "class": ["等于", "nav-search-input", true]
+            }
+        }
+    },
+    {
+        "name": "btn_search",
+        "group_name": "bili",
+        "tag_name": "div",
+        "xpath": "//*[@class=\"nav-search-btn\"]",
+        "outer_html": "<div class=\"nav-search-btn\"><svg></svg></div>",
+        "node_path": [
+            {
+                "tag": "html",
+                "attributes": {},
+                "index": 0,
+                "sibling_count": 1,
+                "innerText": ""
+            },
+            {
+                "tag": "body",
+                "attributes": {},
+                "index": 1,
+                "sibling_count": 2,
+                "innerText": ""
+            },
+            {
+                "tag": "div",
+                "attributes": {
+                    "class": "nav-search-btn"
+                },
+                "index": 0,
+                "sibling_count": 1,
+                "innerText": ""
+            }
+        ],
+        "checked_nodes": [2],
+        "node_match_rules": {
+            "2": {
+                "class": ["等于", "nav-search-btn", true]
+            }
+        }
+    }
+]

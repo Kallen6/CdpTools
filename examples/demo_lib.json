@@ -1,0 +1,125 @@
+[
+    {
+        "name": "search_input",
+        "group_name": "demo",
+        "tag_name": "input",
+        "xpath": "//*[@id=\"kw\"]",
+        "outer_html": "<input id=\"kw\" class=\"search-input\" placeholder=\"输入关键词\">",
+        "node_path": [
+            {
+                "tag": "html",
+                "attributes": {
+                    "lang": "zh-CN"
+                },
+                "index": 0,
+                "sibling_count": 1,
+                "innerText": ""
+            },
+            {
+                "tag": "body",
+                "attributes": {},
+                "index": 1,
+                "sibling_count": 2,
+                "innerText": ""
+            },
+            {
+                "tag": "input",
+                "attributes": {
+                    "id": "kw",
+                    "class": "search-input",
+                    "placeholder": "输入关键词"
+                },
+                "index": 0,
+                "sibling_count": 3,
+                "innerText": ""
+            }
+        ],
+        "checked_nodes": [2],
+        "node_match_rules": {
+            "2": {
+                "id": ["等于", "kw", true]
+            }
+        }
+    },
+    {
+        "name": "btn_search",
+        "group_name": "demo",
+        "tag_name": "button",
+        "xpath": "//*[@id=\"go\"]",
+        "outer_html": "<button id=\"go\" class=\"btn\">搜索</button>",
+        "node_path": [
+            {
+                "tag": "html",
+                "attributes": {
+                    "lang": "zh-CN"
+                },
+                "index": 0,
+                "sibling_count": 1,
+                "innerText": ""
+            },
+            {
+                "tag": "body",
+                "attributes": {},
+                "index": 1,
+                "sibling_count": 2,
+                "innerText": ""
+            },
+            {
+                "tag": "button",
+                "attributes": {
+                    "id": "go",
+                    "class": "btn"
+                },
+                "index": 1,
+                "sibling_count": 3,
+                "innerText": "搜索"
+            }
+        ],
+        "checked_nodes": [2],
+        "node_match_rules": {
+            "2": {
+                "id": ["等于", "go", true]
+            }
+        }
+    },
+    {
+        "name": "result_text",
+        "group_name": "demo",
+        "tag_name": "p",
+        "xpath": "//*[@id=\"result\"]",
+        "outer_html": "<p id=\"result\">结果：</p>",
+        "node_path": [
+            {
+                "tag": "html",
+                "attributes": {
+                    "lang": "zh-CN"
+                },
+                "index": 0,
+                "sibling_count": 1,
+                "innerText": ""
+            },
+            {
+                "tag": "body",
+                "attributes": {},
+                "index": 1,
+                "sibling_count": 2,
+                "innerText": ""
+            },
+            {
+                "tag": "p",
+                "attributes": {
+                    "id": "result"
+                },
+                "index": 2,
+                "sibling_count": 3,
+                "innerText": "结果："
+            }
+        ],
+        "checked_nodes": [2],
+        "node_match_rules": {
+            "2": {
+                "id": ["等于", "result", true]
+            }
+        }
+    }
+]

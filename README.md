@@ -264,9 +264,4 @@ python examples/run_parallel.py --only demo_web
 
 一个端口只能对应一个浏览器；`@task` 自动分配端口，显式指定时不要重复。
 
-## 提交前检查（重要）
 
-- 元素库里的 `target_page`、`outer_html`、`innerText` 可能包含页面 URL、业务数据、个人信息，提交前检查或脱敏；
-- 不要把账号、密码、Cookie、Token 写进脚本或元素库；
-- `%LOCALAPPDATA%\ElementCapture` 是浏览器运行时数据，不要提交；
-- 示例目录只保留公开页面和演示数据。
